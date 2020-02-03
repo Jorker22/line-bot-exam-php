@@ -1,5 +1,5 @@
 <?php // callback.php
-
+session_start();
 require "vendor/autoload.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 
@@ -50,4 +50,3 @@ $_SESSION['varname'] = $post;
 	}
 }
 
-$_SESSION['varname'] = "test";
